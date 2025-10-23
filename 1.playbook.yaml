@@ -1,6 +1,5 @@
 - name: Ping the server
   hosts: frontend       # Correct plural key
-  gather_facts: false   # optional
   tasks:
     - name: Ping task
       ansible.builtin.ping:

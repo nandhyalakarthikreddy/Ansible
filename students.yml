@@ -1,0 +1,39 @@
+- name : "karthik reddy n"
+  dob : "12/03/2003"
+  age : "26"
+  addresses:
+  - doorNo : 4-3
+    street : reddy
+    city : hyderabad
+    pincode : 508211
+    type : current
+
+  - doorNo : 4-3
+    street : reddy
+    city : hyderabad
+    pincode : 508211
+    type : prem 
+  skills : 
+  - java
+  - python
+  - devops
+
+- name : "kirak reddy n"
+  dob : "12/03/2003"
+  age : "26"
+  addresses:
+  - doorNo : 4-3
+    street : reddy
+    city : hyderabad
+    pincode : 508211
+    type : current
+
+  - doorNo : 4-3
+    street : reddy
+    city : hyderabad
+    pincode : 508211
+    type : prem 
+  skills : 
+  - java
+  - python
+  - devops

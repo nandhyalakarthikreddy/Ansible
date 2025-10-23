@@ -1,0 +1,21 @@
+{
+    "name" : "karthik",
+    "dob" : "12/03/2003",
+    "address" :[
+        {
+            "type" : "perm",
+            "doorno" : "4-3",
+            "street" : "reddys",
+            "city" : "hyderabad"
+        },
+
+        {
+            "type" : "current",
+            "doorno" : "4-3",
+            "street" : "reddys",
+            "city" : "hyderabad"
+        }
+    ],
+
+    "skills" : ["java","python","devops"]
+}

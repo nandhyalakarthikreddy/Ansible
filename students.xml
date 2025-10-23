@@ -1,0 +1,28 @@
+<!-- / list of objects -->
+<students>
+<!-- / student is an objects -->
+    <student>
+        <name> karthik reddy</name>
+        <gender> Male </gender>
+        <DOB> 12/03/2003 </DOB>
+        <!-- / list of objects -->
+        <addresses> 
+            <!-- /object -->
+            <address type = perm> 
+                <DoorNo> 4-3</DoorNo>
+                <street> reddy bazar </street>
+            </address>
+
+            <address type = current> 
+                <DoorNo> 4-3</DoorNo>
+                <street> reddy bazar </street>
+            </address>
+        </addresses>
+        <!-- / list of strings -->
+        <skills> 
+            <skill>java</skill>
+            <skill>python</skill>
+            <skill>DevOps</skill>
+        </skills>
+    </student>
+ </students>

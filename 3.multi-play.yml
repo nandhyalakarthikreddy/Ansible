@@ -8,6 +8,7 @@
   - name: play-01 and task-02
     ansible.builtin.debug:
       msg: "Hello from play-01 and task-02"
+      
 - name: PLAY -02
   hosts: frontend
   tasks:

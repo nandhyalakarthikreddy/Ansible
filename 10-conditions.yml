@@ -1,0 +1,13 @@
+- name: conditions play books
+  hosts: local
+  connection: local
+  vars_prompt:
+  - name: number
+    prompt: enter the number
+    private: false
+  tasks:
+  - name: check number is less than 10 or not
+    ansible.builtin.debug:
+      msg: "Given number is: {{ number }}"
+    when: number < 10
+    

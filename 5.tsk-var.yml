@@ -12,6 +12,6 @@
 
   - name: print the course info
     vars:
-    COURSE: Ansible play books
+      COURSE: Ansible play books
     ansible.builtin.debug:
       msg: "course name is: {{ COURSE }},Duration is: {{ DURATION }}, and the trainer is : {{ TRAINER }}"
